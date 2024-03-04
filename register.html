@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<style>
+    .input{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .material-symbols-outlined{
+        font-size: 20px; margin-right: 12px;
+    }
+</style>
+
+<body>
+    <h1>Registration Page</h1>
+    <div>
+        <div class="input">
+            <span class="material-symbols-outlined">
+                account_circle
+                </span>
+            <input id = "txtUsername"  type="text" placeholder="Username">
+        </div>
+        <div class="input">
+            <span class="material-symbols-outlined">
+                lock
+                </span>
+            <input id = "txtPassword" type="password" placeholder="Password">
+        </div>
+        <div class="input">
+            <span class="material-symbols-outlined">
+                lock
+                </span>
+            <input id = "txtConfirmPassword" type="password" placeholder="Confirm Password">
+        </div>
+        <div class="input">
+            <span class="material-symbols-outlined">
+                pin
+                </span>
+            <input id = "txtAge" type="number" placeholder="Age">
+        </div>
+        <div class="input">
+            <button id="btnRegister">Register</button>
+        </div>
+    </div>
+</body>
+<script src="./register.js"></script>
+
+</html>
